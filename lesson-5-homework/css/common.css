@@ -1,0 +1,40 @@
+.body {
+    font-family: "Ralewey";
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.container-header {
+    margin: 0 auto;
+    background-color: black;
+    max-height: 75px;    
+}
+
+.header-wrap {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-pricing {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-footer {
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.footer-wrap {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1170px;
+   
+}
+
+
+
+        

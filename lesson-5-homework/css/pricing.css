@@ -1,0 +1,107 @@
+.pricing-options {
+    background-color: #f5f5f5;
+    padding-top: 50px;
+}
+
+.pricing__title {
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.pricing__title:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    margin: 50px auto;
+    
+}
+
+.pricing__subtitle {
+     font-family: 'Raleway';
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 22px;
+     text-align: center;
+     margin-bottom: 110px;
+     color: #86878B;
+}
+
+.cards__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__element {
+    margin-bottom: 50px;
+}
+
+
+.cards__name {
+    background-color: #333333;
+    width: 370px;
+    height: 60px;
+    color: #ffffff;
+    line-height: 60px;
+    font-family: "OpenSans";
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    border: 2px #f5f5f5 solid;
+}
+
+.cards__many {
+    background-color: #333333;
+    width: 370px;
+    height: 100px;
+    color: #ffffff;
+    line-height: 100px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    border: 2px #f5f5f5 solid;
+}
+
+.cards__text {
+    background-color: #333333;
+    width: 370px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 50px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    border: 2px #f5f5f5 solid;
+}
+
+.cards__trafic {
+    background-color: #ffffff;
+    width: 370px;
+    height: 50px;
+    color: #86878b;
+    line-height: 50px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    border: 1px #f5f5f5 solid;
+}
+
+
+.cards__wrap .cards__element:nth-child(2) {
+    box-shadow: 0px 4px 10px 0px rgba(51, 51, 51, 0.2);
+    margin-top: -33px;
+    margin-bottom: 90px;
+}
+
+.section-title {
+    margin-bottom: 59px;
+}

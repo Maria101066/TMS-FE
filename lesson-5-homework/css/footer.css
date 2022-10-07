@@ -1,22 +1,24 @@
-.footer__title {
+.footer-wrap__title {
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
-    text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.footer-wrap__icn {
-    text-align: center;
+.footer-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
 }
-
-.footer__icn:not(:last-child) {
-    margin-right: 44px;
-}
-
-.footer__icn {
-    margin-top: 20px;
+.footer-wrap-list {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
     margin-bottom: 20px;
-    
 }
+
+
+
+

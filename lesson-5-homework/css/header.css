@@ -1,14 +1,11 @@
 .header-wrap {
     display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
 }
 
 .header-wrap__png {
     display: flex;
-    max-width: 85px;
-    max-height: 31px;
-    margin-left: 115px;
-    margin-top: 23px;
-    margin-bottom: 22px;
 }
 
 .navigation-list__item a {
@@ -20,13 +17,9 @@
     line-height: 19px; 
 }
 
-.navigation-list {
-    display: flex;
-    margin-top: 27px;
-    margin-left: 400px;
-}
-
 .navigation-list__item:not(:last-child) {
-     margin-right: 65px;
+    margin-right: 40px;
 }
-
+.navigation-list {
+    display: flex;  
+}

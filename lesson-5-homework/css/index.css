@@ -1,6 +1,8 @@
-@import url("./common.css");
 @import url("./fonts.css");
+@import url("./common.css");
 @import url("./header.css");
 @import url("./normilize.css");
+@import url("./description.css");
 @import url("./pricing.css");
+@import url("./interview.css");
 @import url("./footer.css");

@@ -1,0 +1,106 @@
+.interview {
+    background-color: #FFFFFF;;
+}
+
+.interview__title {
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.interview__title:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    margin: 50px auto;
+
+}
+
+.interview__subtitle {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.interview-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+
+}
+
+.interview-card__info {
+    display: flex;
+}
+
+.interview-minicard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.interview-card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.interview-card {
+    flex-basis: 33.3%;
+    
+}
+
+.interview-card__text {
+    text-align: center;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #86878B;
+    border: 1px solid #E2E2E2;
+    background-color: #E2E2E2;
+    padding: 38px 0;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.interview-card__text::after {
+    content: "";
+    display: block;
+     
+    width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 15px 0 15px;
+        border-color: #E2E2E2 transparent transparent transparent;
+        position: relative;
+        top: 56px;
+        left: 50px;
+}
+
+
+.interview-minicard__name {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.interview-minicard__profession {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+

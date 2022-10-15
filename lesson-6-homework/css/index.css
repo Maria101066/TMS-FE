@@ -2,5 +2,9 @@
 @import url("./normalize.css");
 @import url("./common.css");
 @import url("./header.css");
-@import url("./first-section.css");
+@import url("./main-info.css");
+@import url("./fontawesome.min.css");
+@import url("./footer.css");
+@import url("./collections.css");
+@import url("./arrivals.css");
 

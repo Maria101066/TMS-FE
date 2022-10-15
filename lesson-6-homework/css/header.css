@@ -1,6 +1,10 @@
+header {
+    padding: 10px 0;
+}
+
 .header-wrap{
     display: flex;
-    padding: 10px 0;
+    
     align-items: center;
     justify-content: space-between;
 }
@@ -31,16 +35,21 @@
     margin-right: 20px;
 }
 
-.link-button {
+.user-actions {
+    display:inline-block;
+}
+
+.icon-button {
+    color: black;
     text-decoration: none;
+    width: 24px;
+    height: 24px;
+    
 }
 
-.link-button img {
-    max-height: 25px;
-}
-
-.link-button:not(:last-child) {
+.icon-button:not(:last-child) {
     margin-right: 10px;
 }
+
 
 

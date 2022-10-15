@@ -1,0 +1,115 @@
+.contact {
+    background-color: #E5E5E5 ;
+}
+
+.contact-wrap {
+    padding: 0 170px 50px 170px ;
+}
+
+.contact__title {
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+.contact__title:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    margin: 50px auto;
+
+}
+
+.contact__subtitle {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.user-information {
+    
+    display: flex;
+    width: 100%;
+    
+
+}
+
+.user-information__name {
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+    justify-content: space-between;
+    margin-right: 20px;
+
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+    background-color: #E5E5E5;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.user-information__mesage {
+   width: 50%;
+   display: flex;
+
+}
+
+.message { width: 100%;
+    background-color: #E5E5E5 ;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    
+        
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19.07px;
+    }
+
+
+
+
+button {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Open Sans";
+        
+        background-color: #EC7979;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        
+        color: white;
+        border: 1px solid white;
+        height: 50px;
+        width: 200px;
+        margin-top: 50px;
+        
+
+        
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}

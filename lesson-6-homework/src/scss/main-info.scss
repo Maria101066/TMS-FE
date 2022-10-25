@@ -1,6 +1,6 @@
 .main-info {
     position: relative;
-}
+    
 
 .background {
     width: 100%;
@@ -33,6 +33,11 @@
 
 .container--full-height {
     height: 100%;
+    @media (max-width: 454px) {
+    
+            height: 300px;
+        }
+    }
 }
 
 .main-info__title {
@@ -72,9 +77,22 @@
     @media (max-width: 694px) {
             justify-content: center;
         }
+                @media (max-width: 402px) {
+                    display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        align-items: center;
+                    
+                }
+  
 }
+
 .button-main-info:not(:last-child) {
     margin-right: 50px;
+    @media (max-width: 454px) {
+        
+            margin-right: 3px;
+        }
 }
 
 @media (max-width: 680px) {
@@ -82,3 +100,4 @@
         text-align: center;
     }
 }
+

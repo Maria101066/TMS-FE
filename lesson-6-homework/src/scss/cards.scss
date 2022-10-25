@@ -1,6 +1,11 @@
 .section-cards {
     padding-top: 100px;
     padding-bottom: 120px;
+    text-align: center;
+    @media (max-width: 550px) {
+            padding-top: 40px;
+            padding-bottom: 50px;
+        }
     
 }
 
@@ -20,9 +25,15 @@
     min-width: 350px;
         vertical-align: bottom;
         object-fit: cover;
+        @media (max-width: 350px) {
+                min-width: 100%;
+                align-items: center;
+            }
+        }
+                
     }
 
-}
+
 .tab {
     display: inline-block;
     text-transform: uppercase;
@@ -49,6 +60,8 @@
 .tab-description-wrap  {
     padding-left: 30px;
     padding-top: 15px;
+    text-align: left;
+   
 }
 
 .icon-text {
@@ -64,6 +77,10 @@
         height: 1px;
         background-color: #D3D4D5;
         margin: 10px 0;
+        @media (max-width: 384px) {
+                width: 100%;
+                align-items: center;
+            }
 }
 
 input[type="radio"] {
@@ -78,3 +95,11 @@ input:checked + .tab {
 input:hover + .tab {
     cursor: pointer;
 }
+
+.tab-description {
+    @media (max-width: 350px) {
+            min-width: 100%;
+            align-items: center;
+        }
+    }
+

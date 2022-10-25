@@ -17,6 +17,11 @@ footer {
                 width: 100%;
                 justify-content: space-around;
         }
+                 @media (max-width: 476px) {
+                     width: 100%;
+                     flex-wrap: wrap;
+                     gap: 15px;
+                 }
 }
 
 .footer__title {
@@ -58,6 +63,11 @@ footer {
     justify-content: space-between;
     margin-top: 85px;
     padding-right: 110px;
+    @media (max-width: 488px) {
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
 }
 
 .footer-offers__links {

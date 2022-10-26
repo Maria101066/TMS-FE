@@ -37,7 +37,7 @@ body {
     @media (max-width: 416px) {
            min-width: 250px;
         }
-                cursor: pointer;
+    cursor: pointer;
 }
 
 .title {
@@ -73,7 +73,7 @@ body {
     @media (max-width: 360px) {
             width: 100%;
         }
-     @media (max-width: 550px) { 
+    @media (max-width: 550px) { 
         padding-bottom: 60px;
                  }
                 
@@ -86,13 +86,11 @@ body {
 }
 
 
-
 .links-catalog-section {
     justify-content: center;
 }
 
 .section-title {
-    
     margin-bottom: 24px;
     font-weight: 700;
     font-size: 32px;
@@ -102,9 +100,9 @@ body {
     @media (max-width: 1100px) {
         justify-content: center;
     }
-        @media (max-width: 368px) {
+    @media (max-width: 368px) {
             text-align: center;
-        }
+    }
     
 }
 
@@ -182,12 +180,9 @@ body {
 .subtitle--changed {
     width: 650px;
     text-align: center;
-    
     margin: 0 auto;
-
     @media (max-width: 700px) {
         width: 100%;
         text-align: center;
-
     }
 }

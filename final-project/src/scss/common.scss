@@ -1,0 +1,43 @@
+body{
+    font-family: "Raleway-Regular";
+    font-size: 18px;
+    font-weight: 400;
+    color: #6C7279;
+}
+
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #FF4343;
+    width: 360px;
+    height: 70px;
+    border: #FF4343;
+    color:white;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #E71414;
+}
+.button:active {
+    background-color: #FF4343;
+    box-shadow: 4px 4px 30px 0px #FF4343;
+}
+.button {
+    text-transform: uppercase;
+    font-family: "Raleway-Black";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+@media (max-width: 364px) {
+    button {
+        width: 275px;
+    }
+
+}

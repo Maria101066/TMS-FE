@@ -1,0 +1,43 @@
+.menu-btn {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 20px;
+
+    
+}
+
+.menu-btn__burger {
+    width: 24px;
+    height: 3px;
+    background: white;
+
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    background: #FFFFFF;
+}
+
+.menu-btn__burger::before {
+    transform: translateY(-8px);
+}
+
+.menu-btn__burger::after {
+    transform: translateY(8px);
+}
+
+@media (max-width: 720px) {
+    .menu-btn {
+        display: flex;
+    }
+    
+}

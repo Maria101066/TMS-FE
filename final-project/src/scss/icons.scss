@@ -1,0 +1,40 @@
+.icons {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.icons-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+
+        .icons-card {
+            width: calc((100% - 30px) / 3);
+        }
+    
+        .icons-card__img {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 41px;
+        }
+    
+        .icons-card__title {
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: #2D3033;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+    
+        .icons-card__subtitle {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #6C7279;
+            padding: 0 5px;
+        }

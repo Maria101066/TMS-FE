@@ -1,0 +1,45 @@
+.testimonials {
+    padding-bottom: 155px;
+}
+
+.testimonials-wrap {
+    display: flex;
+}
+.testimonials-wrap__info {
+    background-color: #5C3249;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 150px;
+    padding-left: 130px;
+    
+}
+
+.testimonials-author {
+font-family: "Raleway_bold";
+font-weight: 700;
+font-size: 13px;
+line-height: 15.3px;
+color: white;
+text-transform: uppercase;
+align-self: flex-start;
+margin-top: 15px;
+}
+
+.testimonials-text {
+    font-family: "Cardo";
+    font-size: 36px;
+    line-height: 49px;
+    color: white;
+}
+
+.testimonials-wrap__img {
+    width: 50%;
+}
+.testimonials-wrap__img img {
+    width: 100%;
+    object-fit: cover;
+    height: 490px;
+}

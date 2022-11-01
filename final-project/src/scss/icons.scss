@@ -10,17 +10,18 @@
     
 }
 
-        .icons-card {
-            width: calc((100% - 30px) / 3);
-        }
+.icons-card {
+    width: calc((100% - 30px) / 3);
+}
     
-        .icons-card__img {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 41px;
-        }
+.icons-card__img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 41px;
+}
     
         .icons-card__title {
+            font-family: "Raleway-Black";
             font-weight: 900;
             font-size: 24px;
             line-height: 28px;

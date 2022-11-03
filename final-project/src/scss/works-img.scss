@@ -49,6 +49,10 @@
     line-height: 21px;
     margin-bottom: 20px;
     text-transform: uppercase;
+    @media (max-width: 1024px) {
+            font-size: 18px;
+            line-height: 21px;
+        }
     
     
 }
@@ -57,4 +61,8 @@
     color: white;
 font-size: 18px;
 line-height: 21px;
+@media (max-width: 1024px) {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

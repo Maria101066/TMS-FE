@@ -1,5 +1,9 @@
 .download {
     padding-bottom: 115px;
+    @media (max-width: 1024px) {
+            padding-bottom: 78px;
+    
+        }
 }
 
 .download-wrap {
@@ -13,6 +17,11 @@
     line-height: 35px;
     margin-bottom: 25px;
     color: black;
+    @media (max-width: 1024px) {
+            font-size: 24px;
+                line-height: 28px;
+    
+        }
 }
 
 .download-subtitle {
@@ -22,4 +31,9 @@
     color: black;
     margin-bottom: 50px;
     text-transform: uppercase;
+    @media (max-width: 1024px) {
+            font-size: 14px;
+            line-height: 16px;
+    
+        }
 }

@@ -16,18 +16,30 @@
                font-weight: 700;
                font-size: 18px;
                line-height: 21px;
-               margin-bottom: 29px;
+               
                color: white;
                text-transform: uppercase;
+               @media (max-width: 1224px) {
+                    font-size: 14px;
+                    line-height: 16px;
+            
+                }
             }
             .info-wrap-item__subtitle {
                 color: white;
                 line-height: 21px;
                 text-align: center;
+                margin-top: 29px;
+                @media (max-width: 1224px) {
+                        font-size: 14px;
+                        line-height: 16px;
+                
+                    }
             }
         }
     }
 }
+
 
 .cards__icons--footer {
     gap: 27px;
@@ -42,6 +54,11 @@
         text-align: center;
         padding: 24px 0;
         width: 20%;
+        @media (max-width: 1224px) {
+                font-size: 14px;
+                line-height: 16px;
+                width: 30%;
+            }
         .footer-copyright__link {
             text-decoration: none;
             color: white;

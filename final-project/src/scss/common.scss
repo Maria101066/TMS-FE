@@ -19,6 +19,11 @@ button {
     border: #FF4343;
     color:white;
     cursor: pointer;
+    @media (max-width: 1024px) {
+            width: 313px;
+                height: 77px;
+    
+        }
 }
 .button:hover {
     background-color: #E71414;
@@ -37,7 +42,7 @@ button {
 
 @media (max-width: 364px) {
     button {
-        width: 275px;
+        width: 279px;
     }
 
 }

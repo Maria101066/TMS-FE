@@ -1,9 +1,16 @@
 .cards {
     padding: 114px 0;
+    @media (max-width: 1024px) {
+            padding: 78px 0;
+        }
 }
 
 .card {
-    width: calc((100% - 90px) / 3);
+    width: calc((100% - 90px) / 4);
+    min-width: 216px;
+    @media (max-width: 1000px) {
+        width: 280px;
+    }
 }
 .card__img img {
     width: 100%;
@@ -17,6 +24,11 @@
 .cards-wrap {
     display: flex;
     gap: 25px;
+    @media (max-width: 1000px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
 }
 
 .card__name {
@@ -26,6 +38,10 @@ font-size: 24px;
 line-height: 28px;
 margin-bottom: 5px;
 color: #2D3033;
+@media (max-width: 1024px) {
+        font-size: 18px;
+            line-height: 21px;
+    }
 }
 
 
@@ -36,6 +52,12 @@ color: #2D3033;
     font-weight: 400;
     line-height: 21px;
     margin-bottom: 17px;
+    @media (max-width: 1024px) {
+            font-size: 14px;
+            line-height: 16px;
+            margin-bottom: 22px;
+        }
+    
 }
 
 .cards__icons {
@@ -47,4 +69,14 @@ color: #2D3033;
 .card__info {
     display: block;
     margin-bottom: 17px;
+    @media (max-width: 1024px) {
+            font-size: 14px;
+            line-height: 16px;
+            margin-bottom: 22px;
+        }
+    @media (max-width: 500px) {
+        margin-bottom: 50px;
+        
+    }    
+    
 }

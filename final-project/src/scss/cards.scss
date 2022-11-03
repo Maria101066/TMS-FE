@@ -40,7 +40,11 @@ color: #2D3033;
 
 .cards__icons {
     display: flex;
-    margin-top: 38px;
+    
     gap: 4px;
 }
 
+.card__info {
+    display: block;
+    margin-bottom: 17px;
+}

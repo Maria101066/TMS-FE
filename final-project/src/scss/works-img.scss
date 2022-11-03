@@ -34,19 +34,27 @@
     left: 0;
     opacity: 0;
     visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .el--hover__title {
+    font-family: "Raleway-Black";
     font-weight: 900;
     font-size: 24px;
     color: white;
     line-height: 21px;
     margin-bottom: 20px;
     text-transform: uppercase;
+    
+    
 }
 
 .el--hover__subtitle {
-    
+    color: white;
 font-size: 18px;
 line-height: 21px;
 }

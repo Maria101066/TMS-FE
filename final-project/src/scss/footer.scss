@@ -1,0 +1,51 @@
+.footer-info {
+    background-color: #353C65;
+    .info-wrap {
+        display: flex;
+        justify-content: space-between;
+        .info-wrap-item {
+            padding-top: 71px;
+            padding-bottom: 65px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 33.3%;
+            .info-wrap-item__title {
+               font-family: "Raleway-Bold";
+               font-weight: 700;
+               font-size: 18px;
+               line-height: 21px;
+               margin-bottom: 29px;
+               color: white;
+               text-transform: uppercase;
+            }
+            .info-wrap-item__subtitle {
+                color: white;
+                line-height: 21px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.cards__icons--footer {
+    gap: 27px;
+    margin-top: 20px;
+}
+
+.footer-copyright {
+    background-color: #2C3154;
+    display: flex;
+    justify-content: center;
+    .footer-copyright__text {
+        text-align: center;
+        padding: 24px 0;
+        width: 20%;
+        .footer-copyright__link {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+}

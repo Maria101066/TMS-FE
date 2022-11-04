@@ -4,6 +4,9 @@
             padding-bottom: 78px;
     
         }
+                @media (max-width: 450px) {
+                    padding-bottom: 45px;
+                }
 }
 
 .download-wrap {
@@ -22,6 +25,11 @@
                 line-height: 28px;
     
         }
+                @media (max-width: 450px) {
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                }
 }
 
 .download-subtitle {
@@ -36,4 +44,10 @@
             line-height: 16px;
     
         }
+                @media (max-width: 450px) {
+                    font-size: 13px;
+                    line-height: 15px;
+                    margin-bottom: 13px;
+                    text-align: center;
+                }
 }

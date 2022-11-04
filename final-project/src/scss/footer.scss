@@ -1,50 +1,64 @@
 .footer-info {
     background-color: #353C65;
     .info-wrap {
+        padding-top: 71px;
+        padding-bottom: 65px;
         display: flex;
         justify-content: space-between;
+        @media (max-width: 1120px) {
+            padding-bottom: 41px;
+            padding-top: 46px;
+        }
+        @media (max-width: 840px) {
+                flex-direction: column;
+                align-items: center;
+                padding: 34px 0px;
+            }
         .info-wrap-item {
-            padding-top: 71px;
-            padding-bottom: 65px;
+            
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             width: 33.3%;
+            @media (max-width: 840px) {
+                    
+                    width: 100%;
+                }
             .info-wrap-item__title {
                font-family: "Raleway-Bold";
                font-weight: 700;
                font-size: 18px;
                line-height: 21px;
-               
+               text-align: center;
                color: white;
                text-transform: uppercase;
+               margin-bottom: 17px;
                @media (max-width: 1224px) {
                     font-size: 14px;
                     line-height: 16px;
             
                 }
+                    
             }
             .info-wrap-item__subtitle {
                 color: white;
                 line-height: 21px;
                 text-align: center;
-                margin-top: 29px;
+                
+                padding: 0 10px;
                 @media (max-width: 1224px) {
                         font-size: 14px;
                         line-height: 16px;
                 
                     }
+                        
             }
         }
     }
 }
 
 
-.cards__icons--footer {
-    gap: 27px;
-    margin-top: 20px;
-}
+
 
 .footer-copyright {
     background-color: #2C3154;
@@ -54,15 +68,36 @@
         text-align: center;
         padding: 24px 0;
         width: 20%;
+        
         @media (max-width: 1224px) {
                 font-size: 14px;
                 line-height: 16px;
                 width: 30%;
             }
+                        @media (max-width: 840px) {
+                            padding: 29px 15px;
+                            width: 100%;
+                        }
         .footer-copyright__link {
             text-decoration: none;
             color: white;
         }
     }
 
+}
+
+.cards__icons--footer {
+    gap: 15px;
+    margin-top: 15px;
+    @media (max-width: 840px) {
+        margin-bottom: 60px;
+        
+    }
+}
+
+.info-wrap-item__subtitle--changed {
+    @media (max-width: 840px) {
+            margin-bottom: 60px;
+    
+        }
 }

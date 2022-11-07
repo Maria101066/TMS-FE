@@ -4,6 +4,14 @@
     grid-template-areas:
         "first second third fourth"
         "fith sixth seventh eight";
+        @media (max-width: 900px) {
+          grid-template-areas:
+            "first second"
+             "third fourth"
+            "fith sixth" 
+            "seventh eight";
+            
+        }
 
 }
 
@@ -11,12 +19,14 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }
 
 .works-img-wrap__el:hover {
     .el--hover {
         opacity: 1;
         visibility: visible;
+        transition: 0.8s all;
     }
          cursor: pointer;
 }

@@ -74,12 +74,20 @@
     transition: width 0.3s ease-out;
 }
 
-.navigation-list__item a:hover:after,
-.navigation-list__item a:focus:after {
+.navigation-list__item a:hover:after{
    width: calc(100% + 26px);
    transform: translateX(-13px);
 }
 
+.navigation-list__item a:active:after {
+    width: calc(100% + 26px);
+    transform: translateX(-13px);
+    background-color: #E71414 ;
+}
+
+.navigation-list__item a:active {
+   color: #E71414;
+}
 
 .navigation-list__item:not(:last-child) {
     margin-right: 30px;
